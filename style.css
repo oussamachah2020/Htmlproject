@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-image: url('image/mou.jpg'),url('image/color.jpg');
+  background-blend-mode: darken;
+background-size: cover;
+}
+.header {
+    margin: 100px 600px 0 250px;
+    height: 400px;
+    background-image: url('image/mountain.jpg'),url('image/color.jpg');
+    transform: translateX(-50px);
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+h1 {
+    padding: 20px 0 0 50px;
+    color: white;
+    font-family: 'Commissioner', sans-serif;
+}
+ul {
+    margin-left: 40px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 280px;
+}
+ul a {
+    color: white;
+    text-decoration: underline white;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 0;
+}
+.container {
+    margin: 0 250px 0 580px;
+    transform: translateY(-470px);
+    background-color: white;
+    height: 500px;
+}
+input[type='text'] {
+    margin: 0 0 0 90px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 8px 180px 8px 8px;
+    transform: translateY(-20px);
+}
+h5 {
+    padding: 60px 0 0 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(128, 128, 128, 0.61);
+}
+h4 {
+    padding: 0 0 0 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(128, 128, 128, 0.61);
+    font-size: 14px;
+}
+input[type='email'] {
+    margin: 5px 0 0 90px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 8px 180px 8px 8px;
+    transform: translateY(-20px);
+}
+input[type='password'] {
+    margin: 5px 0 0 90px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 8px 180px 8px 8px;
+    transform: translateY(-20px);
+}
+button {
+    margin: 20px 0 0 90px;
+    padding: 8px 60px 8px 60px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(33, 33, 231);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.or {
+   margin-left: 300px;
+   transform: translateY(-25px);
+   font-family: 'Roboto', sans-serif;
+}
+.link {
+    margin-left: 320px;
+    transform: translateY(-44px);
+
+}
+a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(5, 90, 129);
+}
+input {
+    font-size: 14px;
+}
